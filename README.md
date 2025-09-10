@@ -1,37 +1,42 @@
-Real-time Camera-Based Gesture Control System for Games
-Overview
+# Real-time Camera-Based Gesture Control System for Games  
 
-This project enables players to control PC games using hand gestures via a standard webcam. It uses computer vision to detect gestures in real time and converts them into gamepad inputs, allowing seamless gameplay without special hardware or code modifications.
+## **Overview**  
+This project enables players to control PC games using **hand gestures** via a standard webcam. It uses **computer vision** to detect gestures in real time and converts them into **gamepad inputs**, allowing seamless gameplay without special hardware or game code modifications.  
 
-Features
+---
 
-Real-time gesture detection
+## **Features**  
+- Real-time gesture detection  
+- Works with any game supporting gamepad input  
+- No additional hardware required  
+- Simple and user-friendly interface  
 
-Works with any game supporting gamepad input
+---
 
-No extra hardware required
+## **Requirements**  
+**Hardware:**  
+- PC with Intel i3 or above  
+- Minimum 4GB RAM  
+- HD webcam (720p or above)  
 
-Easy to configure and use
+**Software:**  
+- Python 3.x  
+- OpenCV  
+- MediaPipe
+- Pyautgui
+- Gamepad API or equivalent library  
 
-Requirements
+---
 
-Hardware: PC with i3 or above, 4GB RAM, HD webcam
-Software: Python 3.x, OpenCV, MediaPipe, Gamepad API
+## **How It Works**  
+1. Captures real-time video from the webcam  
+2. Detects hand landmarks using **MediaPipe**  
+3. Classifies gestures using rule-based or ML models  
+4. Maps gestures to standard gamepad inputs for controlling games  
 
-How It Works
+---
 
-Captures video from webcam
-
-Detects hand landmarks using MediaPipe
-
-Classifies gestures
-
-Maps them to gamepad inputs for existing games
-
-Future Scope
-
-Support for VR/AR gaming
-
-Multi-gesture combinations for complex controls
-
-Hybrid control with voice commands# Mini_Project_HCR
+## **Future Scope**  
+- Support for VR gaming environments  
+- Multiple gesture combinations for complex game controls  
+- Hybrid control system combining gestures and voice commands  
